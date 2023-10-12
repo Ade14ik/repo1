@@ -1,5 +1,0 @@
-words = ["Amazing", "Green", "Python", "Code"]
-
-with open("famous_quotes.txt", "a") as file:
-    for word in words:
-        file.write(word + "\n")
